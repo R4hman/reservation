@@ -1,0 +1,14 @@
+.reusableTitleHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+.reusableTitleHeader h3 {
+  margin: 0;
+}
+.reusableTitleLink {
+  color: blue;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

@@ -1,0 +1,19 @@
+.restaurantContainer {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.restaurant {
+  width: 330px;
+  border: 2px solid #d1d5db;
+  cursor: pointer;
+}
+.restaurant:hover {
+  border-bottom: 2px solid blue;
+}
+
+.restaurant img {
+  width: 100%;
+  height: 220px;
+}

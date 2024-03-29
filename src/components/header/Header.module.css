@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.headerLeft,
+.headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.headerRight {
+}
+.linkStyle {
+  padding: 0.6rem 1rem;
+  border-radius: 50px;
+  background-color: blue;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}

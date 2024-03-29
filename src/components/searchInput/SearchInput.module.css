@@ -1,0 +1,17 @@
+.searchContainer {
+  width: 300px;
+  position: relative;
+}
+
+.searchInput {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  background-color: #e5e7eb;
+  border-radius: 50px;
+}
+.searchInput:hover {
+  background-color: #d1d5db;
+  transition: all 0.3s ease-in-out;
+}

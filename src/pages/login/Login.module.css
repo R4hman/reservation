@@ -1,0 +1,97 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 604px;
+}
+
+.loginContainer {
+  width: 420px;
+  height: 420px;
+  padding-bottom: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.title {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid;
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+/* // className={`flex-1 cursor-pointer font-semibold text-[20px] text-center leading-7
+// ${
+//   type === "sign-in"
+//     ? "after:absolute after:top-[60px] after:left-0 after:p-[1px] after:w-[210px] after:bg-primary500 "
+//     : "text-gray500"
+// }
+// `} */
+
+.titleSpan {
+  flex: 1;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.75rem;
+}
+.active:after {
+  content: "";
+  position: absolute;
+  top: 60px;
+  left: 0;
+  padding: 1px;
+  width: 210px;
+  background-color: blue;
+}
+
+.mainContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.form {
+  width: 100%;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  column-gap: 12px;
+  margin-bottom: 12px;
+}
+
+.input {
+  border: 1px solid;
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.passwordInputContainer {
+  display: flex;
+  flex-direction: column;
+  column-gap: 12px;
+  position: relative;
+}
+.passwordInput label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.passwordIsClose {
+  position: absolute;
+  right: 12px;
+  top: 28px;
+}

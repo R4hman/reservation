@@ -1,0 +1,50 @@
+.restaurantsSection {
+}
+.restaurants {
+  display: flex;
+  background-color: #f6f6f7;
+  padding: 0 1rem;
+  height: 80vh;
+}
+.restaurantsLeft,
+.restaurantsRight {
+  flex: 1;
+  height: calc(100vh - 153px);
+}
+.restaurantsLeft {
+  height: calc(100vh - 153px);
+  overflow-y: scroll;
+}
+
+.restaurantItem {
+  display: flex;
+  border-bottom: 1px solid black;
+  align-items: center;
+  gap: 1rem;
+  /* justify-content: space-between; */
+  /* padding: 1rem; */
+}
+.restaurantItemInfo {
+  flex: 2;
+}
+.restaurantImgContainer {
+  flex: 1;
+}
+
+.restaurantImgContainer {
+  width: 200px;
+  height: 120px;
+}
+.restaurantImgContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Right part */
+.restaurantsRight {
+  flex: 1;
+}
+.map {
+  width: 100%;
+  height: 100%;
+}

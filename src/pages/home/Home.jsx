@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import ReusableTitle from "../../components/reusableTitle/ReusableTitle";
 import useRestaurants from "../../hooks/useRestaurants";
 import styles from "./Home.module.css";
+import FilterNavigation from "../../components/filterNavigation/FilterNavigation";
 
 const Home = () => {
   const { restaurants, isLoading } = useRestaurants();

@@ -1,0 +1,73 @@
+.navContainer {
+  padding: 1rem 2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 2.5rem 0 2.5rem 0;
+}
+.navContainer h4 {
+  margin: 0;
+}
+/* .form {
+  padding: 1rem 2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 3rem 0 1rem 0;
+} */
+.navContainer .time {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  border-right: 2px solid #d1d5db;
+  padding: 0 1rem;
+}
+.navContainer .date {
+  flex: 1;
+
+  border-right: 2px solid #d1d5db;
+  padding: 0 1rem;
+  height: 55px;
+}
+
+.navContainer .dateInput {
+  padding: 1rem 0 0.5rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.navContainer .guests {
+  flex: 1;
+  padding: 0 1rem;
+}
+.navContainer select {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.searchBtn {
+  all: unset;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.searchBtn:hover {
+  transform: scale(1.05);
+}

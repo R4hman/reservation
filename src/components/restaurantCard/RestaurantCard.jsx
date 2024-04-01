@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import styles from "./RestaurantCard.module.css";
 
 const RestaurantCard = ({ restaurant }) => {
-  console.log("restaurant", restaurant);
   return (
     <Link
       to={`/restaurants/${restaurant?.id}`}

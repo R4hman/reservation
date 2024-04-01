@@ -11,7 +11,6 @@ export const useLogin = () => {
     mutationFn: login,
     onSuccess: (data) => {
       if (data.length) {
-        console.log("data", data);
         queryClient.invalidateQueries({ queryKey: ["user"] });
 
         setCookie("mail", data[0].mail, 30);

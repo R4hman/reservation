@@ -74,7 +74,6 @@ const RestaurantDetail = () => {
     }
   };
 
-  console.log("restaurant", restaurant);
   return (
     <section className="container">
       <main className={styles.detailSection}>

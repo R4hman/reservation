@@ -10,7 +10,6 @@ const Gallery = ({ images }) => {
     setModel(true);
   };
 
-  console.log("images", images);
   return (
     <>
       <div className={`model ${model ? "open" : ""}`}>

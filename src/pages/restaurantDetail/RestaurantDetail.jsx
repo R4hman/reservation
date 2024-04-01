@@ -7,6 +7,8 @@ import { useEffect, useRef, useState } from "react";
 import { guests, times } from "../../../fakeData";
 import { CiSearch } from "react-icons/ci";
 import toast from "react-hot-toast";
+import { getCookie } from "../../lib/cookies";
+import CircularPageLoader from "../../components/pageLoader/CircularPageLoader";
 
 const RestaurantDetail = () => {
   const { id } = useParams();
@@ -21,8 +23,11 @@ const RestaurantDetail = () => {
     time: "",
     guests: "1",
   });
+
   const navigate = useNavigate();
   const nameRef = useRef();
+
+  const fullName = getCookie("fullName");
 
   const handleBtn = () => {
     if (!filterOptions.time) {
@@ -52,7 +57,22 @@ const RestaurantDetail = () => {
     };
   }, []);
 
-  if (isLoading) return <div>loading...</div>;
+  if (isLoading) {
+    return <CircularPageLoader />;
+  }
+
+  const handleBook = () => {
+    if (!fullName) {
+      navigate("/login");
+    } else if (!filterOptions.time) {
+      toast.error("Choose a time");
+    } else {
+      navigate("/reservation-success", {
+        replace: true,
+        state: { options: filterOptions },
+      });
+    }
+  };
 
   console.log("restaurant", restaurant);
   return (
@@ -92,7 +112,9 @@ const RestaurantDetail = () => {
                 <GiMeal style={{ fontSize: "2rem" }} />
                 <span>Reservation for parties of 1 to 20</span>
               </div>
-              <button className={styles.bookBtn}>Book Now</button>
+              <button onClick={handleBook} className={styles.bookBtn}>
+                Book Now
+              </button>
             </div>
           </div>
           <div className={styles.detailRight}>
@@ -100,7 +122,7 @@ const RestaurantDetail = () => {
               {!isNameVisible ? (
                 <div className={styles.rightInfo}>
                   <h2>{restaurant?.name}</h2>
-                  <img src={restaurant?.imageUrls[0]} alt="" />
+                  <img src={restaurant?.imageUrls[0]} alt="restaurant pic" />
                 </div>
               ) : (
                 ""

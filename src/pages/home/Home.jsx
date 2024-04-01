@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import ReusableTitle from "../../components/reusableTitle/ReusableTitle";
 import useRestaurants from "../../hooks/useRestaurants";
 import styles from "./Home.module.css";
-import FilterNavigation from "../../components/filterNavigation/FilterNavigation";
+import CircularPageLoader from "../../components/pageLoader/CircularPageLoader";
 
 const Home = () => {
   const { restaurants, isLoading } = useRestaurants();
   if (isLoading) {
-    <div>loading...</div>;
+    return <CircularPageLoader />;
   }
   return (
     <section className="container">
@@ -20,7 +20,10 @@ const Home = () => {
             key={restaurant.id}
           >
             <img src={restaurant.imageUrls?.[0]} />
-            <div>{restaurant.name}</div>
+            <div className={styles.info}>
+              <h2>{restaurant.name}</h2>
+              <h4>{restaurant.description}</h4>
+            </div>
           </Link>
         ))}
       </main>

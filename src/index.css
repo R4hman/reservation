@@ -1,6 +1,6 @@
 html,
 body {
-  padding: 0;
+  padding: 60px 0 0 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -13,6 +13,7 @@ a {
 
 * {
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 .container {
@@ -34,6 +35,7 @@ a {
 }
 
 .gallery .pics {
+  /* width: 300px; */
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
   cursor: pointer;
@@ -43,7 +45,7 @@ a {
   filter: opacity(0.8);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1424px) {
   .gallery {
     -webkit-column-count: 2;
     -moz-column-count: 2;

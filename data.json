@@ -12,12 +12,7 @@
           "state": "NY",
           "zipCode": "12345"
         },
-        "tags": [
-          "fancy",
-          "expensive",
-          "american",
-          "mixed drinks"
-        ]
+        "tags": ["fancy", "expensive", "american", "mixed drinks"]
       },
       "date": "March 20, 2020",
       "time": "6:30PM",
@@ -37,11 +32,7 @@
           "state": "NY",
           "zipCode": "12345"
         },
-        "tags": [
-          "seafood",
-          "french",
-          "oysters"
-        ]
+        "tags": ["seafood", "french", "oysters"]
       },
       "date": "March 10, 2020",
       "time": "8:00PM",
@@ -62,11 +53,7 @@
           "state": "NY",
           "zipCode": "12345"
         },
-        "tags": [
-          "burgers",
-          "greasy",
-          "family-friendly"
-        ]
+        "tags": ["burgers", "greasy", "family-friendly"]
       },
       "date": "March 15, 2020",
       "time": "7:00PM",
@@ -76,81 +63,6 @@
     }
   ],
   "restaurants": [
-    {
-      "id": "123",
-      "name": "Hemingway's",
-      "imageUrls": [
-        "./src/assets/res-photo13.jpg",
-        "./src/assets/res-photo14.jpg",
-        "./src/assets/res-photo15.jpg"
-      ],
-      "rating": 4,
-      "address": {
-        "street": "123 Someone Street",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "12345"
-      },
-      "tags": [
-        "fancy",
-        "expensive",
-        "american",
-        "mixed drinks"
-      ],
-      "bio": "Founded in 1956, Hemingway's is a stylish American restaurant in upper Manhattan that specializes in fire-grilled meat and mixed drinks. Over the years, it has continued to delight customers with creative new dishes, such as the 'Snows of Kilimanjaro' - a large pork rib glazed in a garlic-cream sauce.",
-      "reviews": [
-        {
-          "id": "1111",
-          "author": "James S. Johnson",
-          "rating": 4,
-          "text": "I really like this place. Their take on pot roast is sublime, and my mouth is watering right now just thinking about it. The one thing I would change is the lighting, it was a little too dark in there and I needed to ask the waiter to read several things off the menu for me."
-        }
-      ]
-    },
-    {
-      "id": "345",
-      "name": "Ben's Burgers",
-      "imageUrls": [
-        "./src/assets/res-photo4.avif",
-        "./src/assets/res-photo5.avif",
-        "./src/assets/res-photo6.avif"
-      ],
-      "rating": 3.5,
-      "address": {
-        "street": "5 Burger Lane",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "12345"
-      },
-      "tags": [
-        "burgers",
-        "greasy",
-        "family-friendly"
-      ]
-    },
-    {
-      "id": "678",
-      "name": "Le Mollusc",
-      "imageUrls": [
-        "./src/assets/res-photo7.avif",
-        "./src/assets/res-photo8.avif",
-        "./src/assets/res-photo9.avif"
-      ],
-      "rating": 4.5,
-      "address": {
-        "street": "123 Someone Street",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "12345"
-      },
-      "tags": [
-        "seafood",
-        "french",
-        "oysters"
-      ]
-    }
-  ],
-  "restaurants2": [
     {
       "id": "124",
       "name": "Ozsut",
@@ -168,12 +80,7 @@
         "city": "Baku",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8592.253581601253!2d49.83904525676641!3d40.4128296239101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030872475ca9789%3A0x9f0b7c9e8264c7ac!2zS0ZDIEF0YXTDvHJrIHBhcmvEsQ!5e0!3m2!1saz!2saz!4v1711790771150!5m2!1saz!2saz"
       },
-      "tags": [
-        "fancy",
-        "expensive",
-        "american",
-        "mixed drinks"
-      ],
+      "tags": ["fancy", "expensive", "american", "mixed drinks"],
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas hic suscipit veniam facilis dolores deleniti nostrum aliquid nam sed sequi eveniet eum nulla quo, quisquam accusamus mollitia fuga rerum beatae cupiditate impedit quos. Aperiam sit doloremque doloribus delectus blanditiis ducimus eum fuga aut, omnis enim quaerat! Ab voluptates sequi reprehenderit!",
       "date": [
         "2024-03-30",
@@ -192,54 +99,23 @@
       "times": [
         {
           "time": "12:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "14:00",
-          "guestCombination": [
-            "2",
-            "4",
-            "6",
-            "8",
-            "12"
-          ]
+          "guestCombination": ["2", "4", "6", "8", "12"]
         },
         {
           "time": "15:30",
-          "guestCombination": [
-            "3",
-            "5",
-            "9",
-            "11",
-            "13",
-            "15"
-          ]
+          "guestCombination": ["3", "5", "9", "11", "13", "15"]
         },
         {
           "time": "16:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "17:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         }
       ],
       "reviews": [
@@ -255,9 +131,9 @@
       "id": "346",
       "name": "Burger King",
       "imageUrls": [
-        "./src/assets/res-photo4.avif",
-        "./src/assets/res-photo5.avif",
-        "./src/assets/res-photo6.avif"
+        "../public/assets/res-photo16.jpg",
+        "../public/assets/res-photo17.jpg",
+        "../public/assets/res-photo18.jpg"
       ],
       "rating": 3.5,
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas hic suscipit veniam facilis dolores deleniti nostrum aliquid nam sed sequi eveniet eum nulla quo, quisquam accusamus mollitia fuga rerum beatae cupiditate impedit quos. Aperiam sit doloremque doloribus delectus blanditiis ducimus eum fuga aut, omnis enim quaerat! Ab voluptates sequi reprehenderit!",
@@ -278,54 +154,23 @@
       "times": [
         {
           "time": "12:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "14:00",
-          "guestCombination": [
-            "2",
-            "4",
-            "6",
-            "8",
-            "12"
-          ]
+          "guestCombination": ["2", "4", "6", "8", "12"]
         },
         {
           "time": "15:30",
-          "guestCombination": [
-            "3",
-            "5",
-            "9",
-            "11",
-            "13",
-            "15"
-          ]
+          "guestCombination": ["3", "5", "9", "11", "13", "15"]
         },
         {
           "time": "16:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "17:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         }
       ],
       "address": {
@@ -333,19 +178,15 @@
         "city": "Baku",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8592.253581601253!2d49.83904525676641!3d40.4128296239101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030872475ca9789%3A0x9f0b7c9e8264c7ac!2zS0ZDIEF0YXTDvHJrIHBhcmvEsQ!5e0!3m2!1saz!2saz!4v1711790771150!5m2!1saz!2saz"
       },
-      "tags": [
-        "burgers",
-        "greasy",
-        "family-friendly"
-      ]
+      "tags": ["burgers", "greasy", "family-friendly"]
     },
     {
       "id": "679",
       "name": "KFC Ataturk Pr",
       "imageUrls": [
-        "./src/assets/res-photo7.avif",
-        "./src/assets/res-photo8.avif",
-        "./src/assets/res-photo9.avif"
+        "../public/assets/res-photo19.jpg",
+        "../public/assets/res-photo20.jpg",
+        "../public/assets/res-photo21.jpg"
       ],
       "rating": 4.5,
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas hic suscipit veniam facilis dolores deleniti nostrum aliquid nam sed sequi eveniet eum nulla quo, quisquam accusamus mollitia fuga rerum beatae cupiditate impedit quos. Aperiam sit doloremque doloribus delectus blanditiis ducimus eum fuga aut, omnis enim quaerat! Ab voluptates sequi reprehenderit!",
@@ -366,53 +207,23 @@
       "times": [
         {
           "time": "12:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "14:00",
-          "guestCombination": [
-            "2",
-            "4",
-            "6",
-            "8",
-            "12"
-          ]
+          "guestCombination": ["2", "4", "6", "8", "12"]
         },
         {
           "time": "15:30",
-          "guestCombination": [
-            "3",
-            "5",
-            "9",
-            "11",
-            "13",
-            "15"
-          ]
+          "guestCombination": ["3", "5", "9", "11", "13", "15"]
         },
         {
           "time": "16:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10"
-          ]
+          "guestCombination": ["1", "3", "5", "10"]
         },
         {
           "time": "17:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         }
       ],
       "address": {
@@ -420,19 +231,15 @@
         "city": "Baku",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8592.253581601253!2d49.83904525676641!3d40.4128296239101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030872475ca9789%3A0x9f0b7c9e8264c7ac!2zS0ZDIEF0YXTDvHJrIHBhcmvEsQ!5e0!3m2!1saz!2saz!4v1711790771150!5m2!1saz!2saz"
       },
-      "tags": [
-        "seafood",
-        "french",
-        "oysters"
-      ]
+      "tags": ["seafood", "french", "oysters"]
     },
     {
       "id": "125",
       "name": "Ozsut",
       "imageUrls": [
-        "./src/assets/res-photo1.avif",
-        "./src/assets/res-photo2.avif",
-        "./src/assets/res-photo3.avif"
+        "../public/assets/res-photo16.jpg",
+        "../public/assets/res-photo17.jpg",
+        "../public/assets/res-photo18.jpg"
       ],
       "rating": 4,
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas hic suscipit veniam facilis dolores deleniti nostrum aliquid nam sed sequi eveniet eum nulla quo, quisquam accusamus mollitia fuga rerum beatae cupiditate impedit quos. Aperiam sit doloremque doloribus delectus blanditiis ducimus eum fuga aut, omnis enim quaerat! Ab voluptates sequi reprehenderit!",
@@ -441,12 +248,7 @@
         "city": "Baku",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8592.253581601253!2d49.83904525676641!3d40.4128296239101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030872475ca9789%3A0x9f0b7c9e8264c7ac!2zS0ZDIEF0YXTDvHJrIHBhcmvEsQ!5e0!3m2!1saz!2saz!4v1711790771150!5m2!1saz!2saz"
       },
-      "tags": [
-        "fancy",
-        "expensive",
-        "american",
-        "mixed drinks"
-      ],
+      "tags": ["fancy", "expensive", "american", "mixed drinks"],
       "bio": "Founded in 1956, Hemingway's is a stylish American restaurant in upper Manhattan that specializes in fire-grilled meat and mixed drinks. Over the years, it has continued to delight customers with creative new dishes, such as the 'Snows of Kilimanjaro' - a large pork rib glazed in a garlic-cream sauce.",
       "date": [
         "2024-03-30",
@@ -465,54 +267,23 @@
       "times": [
         {
           "time": "12:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "14:00",
-          "guestCombination": [
-            "2",
-            "4",
-            "6",
-            "8",
-            "12"
-          ]
+          "guestCombination": ["2", "4", "6", "8", "12"]
         },
         {
           "time": "15:30",
-          "guestCombination": [
-            "3",
-            "5",
-            "9",
-            "11",
-            "13",
-            "15"
-          ]
+          "guestCombination": ["3", "5", "9", "11", "13", "15"]
         },
         {
           "time": "16:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "17:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         }
       ],
       "reviews": [
@@ -529,9 +300,9 @@
       "name": "Burger King",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas hic suscipit veniam facilis dolores deleniti nostrum aliquid nam sed sequi eveniet eum nulla quo, quisquam accusamus mollitia fuga rerum beatae cupiditate impedit quos. Aperiam sit doloremque doloribus delectus blanditiis ducimus eum fuga aut, omnis enim quaerat! Ab voluptates sequi reprehenderit!",
       "imageUrls": [
-        "./src/assets/res-photo4.avif",
-        "./src/assets/res-photo5.avif",
-        "./src/assets/res-photo6.avif"
+        "../public/assets/res-photo19.jpg",
+        "../public/assets/res-photo22.jpg",
+        "../public/assets/res-photo20.jpg"
       ],
       "rating": 3.5,
       "date": [
@@ -551,54 +322,23 @@
       "times": [
         {
           "time": "12:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "14:00",
-          "guestCombination": [
-            "2",
-            "4",
-            "6",
-            "8",
-            "12"
-          ]
+          "guestCombination": ["2", "4", "6", "8", "12"]
         },
         {
           "time": "15:30",
-          "guestCombination": [
-            "3",
-            "5",
-            "9",
-            "11",
-            "13",
-            "15"
-          ]
+          "guestCombination": ["3", "5", "9", "11", "13", "15"]
         },
         {
           "time": "16:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "17:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         }
       ],
       "address": {
@@ -606,19 +346,15 @@
         "city": "Baku",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8592.253581601253!2d49.83904525676641!3d40.4128296239101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030872475ca9789%3A0x9f0b7c9e8264c7ac!2zS0ZDIEF0YXTDvHJrIHBhcmvEsQ!5e0!3m2!1saz!2saz!4v1711790771150!5m2!1saz!2saz"
       },
-      "tags": [
-        "burgers",
-        "greasy",
-        "family-friendly"
-      ]
+      "tags": ["burgers", "greasy", "family-friendly"]
     },
     {
       "id": "680",
       "name": "KFC Ataturk Pr",
       "imageUrls": [
-        "./src/assets/res-photo7.avif",
-        "./src/assets/res-photo8.avif",
-        "./src/assets/res-photo9.avif"
+        "../public/assets/res-photo19.jpg",
+        "../public/assets/res-photo17.jpg",
+        "../public/assets/res-photo18.jpg"
       ],
       "rating": 4.5,
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas hic suscipit veniam facilis dolores deleniti nostrum aliquid nam sed sequi eveniet eum nulla quo, quisquam accusamus mollitia fuga rerum beatae cupiditate impedit quos. Aperiam sit doloremque doloribus delectus blanditiis ducimus eum fuga aut, omnis enim quaerat! Ab voluptates sequi reprehenderit!",
@@ -639,53 +375,23 @@
       "times": [
         {
           "time": "12:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "14:00",
-          "guestCombination": [
-            "2",
-            "4",
-            "6",
-            "8",
-            "12"
-          ]
+          "guestCombination": ["2", "4", "6", "8", "12"]
         },
         {
           "time": "15:30",
-          "guestCombination": [
-            "3",
-            "5",
-            "9",
-            "11",
-            "13",
-            "15"
-          ]
+          "guestCombination": ["3", "5", "9", "11", "13", "15"]
         },
         {
           "time": "16:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10"
-          ]
+          "guestCombination": ["1", "3", "5", "10"]
         },
         {
           "time": "17:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         }
       ],
       "address": {
@@ -693,19 +399,15 @@
         "city": "Baku",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8592.253581601253!2d49.83904525676641!3d40.4128296239101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030872475ca9789%3A0x9f0b7c9e8264c7ac!2zS0ZDIEF0YXTDvHJrIHBhcmvEsQ!5e0!3m2!1saz!2saz!4v1711790771150!5m2!1saz!2saz"
       },
-      "tags": [
-        "seafood",
-        "french",
-        "oysters"
-      ]
+      "tags": ["seafood", "french", "oysters"]
     },
     {
       "id": "126",
       "name": "Ozsut",
       "imageUrls": [
-        "./src/assets/res-photo1.avif",
-        "./src/assets/res-photo2.avif",
-        "./src/assets/res-photo3.avif"
+        "../public/assets/res-photo16.jpg",
+        "../public/assets/res-photo17.jpg",
+        "../public/assets/res-photo18.jpg"
       ],
       "rating": 4,
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas hic suscipit veniam facilis dolores deleniti nostrum aliquid nam sed sequi eveniet eum nulla quo, quisquam accusamus mollitia fuga rerum beatae cupiditate impedit quos. Aperiam sit doloremque doloribus delectus blanditiis ducimus eum fuga aut, omnis enim quaerat! Ab voluptates sequi reprehenderit!",
@@ -714,12 +416,7 @@
         "city": "Baku",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8592.253581601253!2d49.83904525676641!3d40.4128296239101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030872475ca9789%3A0x9f0b7c9e8264c7ac!2zS0ZDIEF0YXTDvHJrIHBhcmvEsQ!5e0!3m2!1saz!2saz!4v1711790771150!5m2!1saz!2saz"
       },
-      "tags": [
-        "fancy",
-        "expensive",
-        "american",
-        "mixed drinks"
-      ],
+      "tags": ["fancy", "expensive", "american", "mixed drinks"],
       "bio": "Founded in 1956, Hemingway's is a stylish American restaurant in upper Manhattan that specializes in fire-grilled meat and mixed drinks. Over the years, it has continued to delight customers with creative new dishes, such as the 'Snows of Kilimanjaro' - a large pork rib glazed in a garlic-cream sauce.",
       "date": [
         "2024-03-30",
@@ -738,54 +435,23 @@
       "times": [
         {
           "time": "12:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "14:00",
-          "guestCombination": [
-            "2",
-            "4",
-            "6",
-            "8",
-            "12"
-          ]
+          "guestCombination": ["2", "4", "6", "8", "12"]
         },
         {
           "time": "15:30",
-          "guestCombination": [
-            "3",
-            "5",
-            "9",
-            "11",
-            "13",
-            "15"
-          ]
+          "guestCombination": ["3", "5", "9", "11", "13", "15"]
         },
         {
           "time": "16:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "17:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         }
       ],
       "reviews": [
@@ -801,9 +467,9 @@
       "id": "348",
       "name": "Burger King",
       "imageUrls": [
-        "./src/assets/res-photo4.avif",
-        "./src/assets/res-photo5.avif",
-        "./src/assets/res-photo6.avif"
+        "../public/assets/res-photo14.jpg",
+        "../public/assets/res-photo16.jpg",
+        "../public/assets/res-photo21.jpg"
       ],
       "rating": 3.5,
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas hic suscipit veniam facilis dolores deleniti nostrum aliquid nam sed sequi eveniet eum nulla quo, quisquam accusamus mollitia fuga rerum beatae cupiditate impedit quos. Aperiam sit doloremque doloribus delectus blanditiis ducimus eum fuga aut, omnis enim quaerat! Ab voluptates sequi reprehenderit!",
@@ -824,54 +490,23 @@
       "times": [
         {
           "time": "12:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "14:00",
-          "guestCombination": [
-            "2",
-            "4",
-            "6",
-            "8",
-            "12"
-          ]
+          "guestCombination": ["2", "4", "6", "8", "12"]
         },
         {
           "time": "15:30",
-          "guestCombination": [
-            "3",
-            "5",
-            "9",
-            "11",
-            "13",
-            "15"
-          ]
+          "guestCombination": ["3", "5", "9", "11", "13", "15"]
         },
         {
           "time": "16:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "17:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         }
       ],
       "address": {
@@ -879,19 +514,15 @@
         "city": "Baku",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8592.253581601253!2d49.83904525676641!3d40.4128296239101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030872475ca9789%3A0x9f0b7c9e8264c7ac!2zS0ZDIEF0YXTDvHJrIHBhcmvEsQ!5e0!3m2!1saz!2saz!4v1711790771150!5m2!1saz!2saz"
       },
-      "tags": [
-        "burgers",
-        "greasy",
-        "family-friendly"
-      ]
+      "tags": ["burgers", "greasy", "family-friendly"]
     },
     {
       "id": "681",
       "name": "KFC Ataturk Pr",
       "imageUrls": [
-        "./src/assets/res-photo7.avif",
-        "./src/assets/res-photo8.avif",
-        "./src/assets/res-photo9.avif"
+        "../public/assets/res-photo16.jpg",
+        "../public/assets/res-photo17.jpg",
+        "../public/assets/res-photo18.jpg"
       ],
       "rating": 4.5,
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas hic suscipit veniam facilis dolores deleniti nostrum aliquid nam sed sequi eveniet eum nulla quo, quisquam accusamus mollitia fuga rerum beatae cupiditate impedit quos. Aperiam sit doloremque doloribus delectus blanditiis ducimus eum fuga aut, omnis enim quaerat! Ab voluptates sequi reprehenderit!",
@@ -912,53 +543,23 @@
       "times": [
         {
           "time": "12:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "14:00",
-          "guestCombination": [
-            "2",
-            "4",
-            "6",
-            "8",
-            "12"
-          ]
+          "guestCombination": ["2", "4", "6", "8", "12"]
         },
         {
           "time": "15:30",
-          "guestCombination": [
-            "3",
-            "5",
-            "9",
-            "11",
-            "13",
-            "15"
-          ]
+          "guestCombination": ["3", "5", "9", "11", "13", "15"]
         },
         {
           "time": "16:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10"
-          ]
+          "guestCombination": ["1", "3", "5", "10"]
         },
         {
           "time": "17:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         }
       ],
       "address": {
@@ -966,19 +567,15 @@
         "city": "Baku",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8592.253581601253!2d49.83904525676641!3d40.4128296239101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030872475ca9789%3A0x9f0b7c9e8264c7ac!2zS0ZDIEF0YXTDvHJrIHBhcmvEsQ!5e0!3m2!1saz!2saz!4v1711790771150!5m2!1saz!2saz"
       },
-      "tags": [
-        "seafood",
-        "french",
-        "oysters"
-      ]
+      "tags": ["seafood", "french", "oysters"]
     },
     {
       "id": "127",
       "name": "Ozsut",
       "imageUrls": [
-        "./src/assets/res-photo1.avif",
-        "./src/assets/res-photo2.avif",
-        "./src/assets/res-photo3.avif"
+        "../public/assets/res-photo18.jpg",
+        "../public/assets/res-photo17.jpg",
+        "../public/assets/res-photo24.jpg"
       ],
       "rating": 4,
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas hic suscipit veniam facilis dolores deleniti nostrum aliquid nam sed sequi eveniet eum nulla quo, quisquam accusamus mollitia fuga rerum beatae cupiditate impedit quos. Aperiam sit doloremque doloribus delectus blanditiis ducimus eum fuga aut, omnis enim quaerat! Ab voluptates sequi reprehenderit!",
@@ -987,12 +584,7 @@
         "city": "Baku",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8592.253581601253!2d49.83904525676641!3d40.4128296239101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030872475ca9789%3A0x9f0b7c9e8264c7ac!2zS0ZDIEF0YXTDvHJrIHBhcmvEsQ!5e0!3m2!1saz!2saz!4v1711790771150!5m2!1saz!2saz"
       },
-      "tags": [
-        "fancy",
-        "expensive",
-        "american",
-        "mixed drinks"
-      ],
+      "tags": ["fancy", "expensive", "american", "mixed drinks"],
       "bio": "Founded in 1956, Hemingway's is a stylish American restaurant in upper Manhattan that specializes in fire-grilled meat and mixed drinks. Over the years, it has continued to delight customers with creative new dishes, such as the 'Snows of Kilimanjaro' - a large pork rib glazed in a garlic-cream sauce.",
       "date": [
         "2024-03-30",
@@ -1011,54 +603,23 @@
       "times": [
         {
           "time": "12:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "14:00",
-          "guestCombination": [
-            "2",
-            "4",
-            "6",
-            "8",
-            "12"
-          ]
+          "guestCombination": ["2", "4", "6", "8", "12"]
         },
         {
           "time": "15:30",
-          "guestCombination": [
-            "3",
-            "5",
-            "9",
-            "11",
-            "13",
-            "15"
-          ]
+          "guestCombination": ["3", "5", "9", "11", "13", "15"]
         },
         {
           "time": "16:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "17:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         }
       ],
       "reviews": [
@@ -1074,9 +635,9 @@
       "id": "349",
       "name": "Burger King",
       "imageUrls": [
-        "./src/assets/res-photo4.avif",
-        "./src/assets/res-photo5.avif",
-        "./src/assets/res-photo6.avif"
+        "../public/assets/res-photo19.jpg",
+        "../public/assets/res-photo14.jpg",
+        "../public/assets/res-photo24.jpg"
       ],
       "rating": 3.5,
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas hic suscipit veniam facilis dolores deleniti nostrum aliquid nam sed sequi eveniet eum nulla quo, quisquam accusamus mollitia fuga rerum beatae cupiditate impedit quos. Aperiam sit doloremque doloribus delectus blanditiis ducimus eum fuga aut, omnis enim quaerat! Ab voluptates sequi reprehenderit!",
@@ -1097,54 +658,23 @@
       "times": [
         {
           "time": "12:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "14:00",
-          "guestCombination": [
-            "2",
-            "4",
-            "6",
-            "8",
-            "12"
-          ]
+          "guestCombination": ["2", "4", "6", "8", "12"]
         },
         {
           "time": "15:30",
-          "guestCombination": [
-            "3",
-            "5",
-            "9",
-            "11",
-            "13",
-            "15"
-          ]
+          "guestCombination": ["3", "5", "9", "11", "13", "15"]
         },
         {
           "time": "16:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "17:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         }
       ],
       "address": {
@@ -1152,19 +682,15 @@
         "city": "Baku",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8592.253581601253!2d49.83904525676641!3d40.4128296239101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030872475ca9789%3A0x9f0b7c9e8264c7ac!2zS0ZDIEF0YXTDvHJrIHBhcmvEsQ!5e0!3m2!1saz!2saz!4v1711790771150!5m2!1saz!2saz"
       },
-      "tags": [
-        "burgers",
-        "greasy",
-        "family-friendly"
-      ]
+      "tags": ["burgers", "greasy", "family-friendly"]
     },
     {
       "id": "682",
       "name": "KFC Ataturk Pr",
       "imageUrls": [
-        "./src/assets/res-photo7.avif",
-        "./src/assets/res-photo8.avif",
-        "./src/assets/res-photo9.avif"
+        "../public/assets/res-photo16.jpg",
+        "../public/assets/res-photo17.jpg",
+        "../public/assets/res-photo18.jpg"
       ],
       "rating": 4.5,
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas hic suscipit veniam facilis dolores deleniti nostrum aliquid nam sed sequi eveniet eum nulla quo, quisquam accusamus mollitia fuga rerum beatae cupiditate impedit quos. Aperiam sit doloremque doloribus delectus blanditiis ducimus eum fuga aut, omnis enim quaerat! Ab voluptates sequi reprehenderit!",
@@ -1185,53 +711,23 @@
       "times": [
         {
           "time": "12:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         },
         {
           "time": "14:00",
-          "guestCombination": [
-            "2",
-            "4",
-            "6",
-            "8",
-            "12"
-          ]
+          "guestCombination": ["2", "4", "6", "8", "12"]
         },
         {
           "time": "15:30",
-          "guestCombination": [
-            "3",
-            "5",
-            "9",
-            "11",
-            "13",
-            "15"
-          ]
+          "guestCombination": ["3", "5", "9", "11", "13", "15"]
         },
         {
           "time": "16:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10"
-          ]
+          "guestCombination": ["1", "3", "5", "10"]
         },
         {
           "time": "17:00",
-          "guestCombination": [
-            "1",
-            "3",
-            "5",
-            "10",
-            "15"
-          ]
+          "guestCombination": ["1", "3", "5", "10", "15"]
         }
       ],
       "address": {
@@ -1239,58 +735,42 @@
         "city": "Baku",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8592.253581601253!2d49.83904525676641!3d40.4128296239101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030872475ca9789%3A0x9f0b7c9e8264c7ac!2zS0ZDIEF0YXTDvHJrIHBhcmvEsQ!5e0!3m2!1saz!2saz!4v1711790771150!5m2!1saz!2saz"
       },
-      "tags": [
-        "seafood",
-        "french",
-        "oysters"
-      ]
+      "tags": ["seafood", "french", "oysters"]
     }
   ],
   "users": [
     {
       "mail": "rehman@gmail.com",
       "password": "12345678910",
+      "fullName": "Rahman Musayev",
       "isAdmin": false
     },
     {
-      "mail": "rehim@gmail.com",
+      "mail": "togrul@gmail.com",
+      "fullName": "Togrul Huseynov",
       "password": "1234567891011",
       "isAdmin": true
     },
     {
-      "id": "c000",
-      "email": "rehman@gmail.com",
-      "password": "12345678910"
+      "id": "635f",
+      "fullName": "Rahman Musayev",
+      "email": "rehmanmysayev@gmail.com",
+      "password": "test123456",
+      "confirmPassword": "test123456"
     },
     {
-      "id": "12d3",
-      "email": "rehman@gmail.com",
-      "password": "12345678910"
+      "fullName": "Zeyneb Ceferova",
+      "email": "zeynev@gmail.com",
+      "password": "test123456",
+      "confirmPassword": "test123456",
+      "id": "6wgAHQT"
     },
     {
-      "id": "a330",
-      "email": "rehman@gmail.com",
-      "password": "123456789"
-    },
-    {
-      "id": "4e2a",
-      "email": "rehman@gmail.com",
-      "password": "123456789"
-    },
-    {
-      "id": "5293",
-      "email": "rehman@gmail.com",
-      "password": "12345678910"
-    },
-    {
-      "id": "dbbb",
-      "email": "rehman@gmail.com",
-      "password": "123456789"
-    },
-    {
-      "id": "7b3c",
-      "email": "rehman@gmail.com",
-      "password": "12345678"
+      "fullName": "Zeyneb Ceferova",
+      "mail": "zeyneb@gmail.com",
+      "password": "123456test",
+      "confirmPassword": "test123456",
+      "id": "HSJRsqh"
     }
   ]
 }

@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 
 export const getRestaurant = async (id) => {
-  const res = await fetch(`http://localhost:3000/restaurants2/${id}`);
+  const res = await fetch(`http://localhost:3000/restaurants/${id}`);
   const data = await res.json();
   return data;
 };

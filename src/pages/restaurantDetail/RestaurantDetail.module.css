@@ -5,10 +5,10 @@
 .detailInfo {
   display: flex;
   gap: 1rem;
-  padding: 3rem 0;
+  padding: 3rem 12px;
 }
 .detailLeft {
-  flex: 3;
+  flex: 5;
 }
 .detailLeft h2 {
   margin: 0;
@@ -17,7 +17,7 @@
   margin: 2rem 0;
 }
 .detailRight {
-  flex: 1;
+  flex: 2;
 }
 
 .stickyItem {
@@ -27,7 +27,7 @@
   position: -moz-sticky !important;
   position: -ms-sticky !important;
   position: -o-sticky !important;
-  top: 0 !important;
+  top: 100px !important;
 
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   padding: 1rem;
@@ -49,15 +49,22 @@
   padding: 1rem 2rem;
   font-size: 1rem;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.bookBtn:hover {
+  transform: scale(1.03);
 }
 
 .rightInfo {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
+  color: blue;
 }
 .rightInfo img {
-  width: 150px;
+  width: 200px;
+  height: 130px;
+  object-fit: cover;
 }
 
 .detailDate,
@@ -109,4 +116,53 @@
 
 .searchBtn:hover {
   transform: scale(1.05);
+}
+
+@media screen and (max-width: 1370px) {
+  .detailInfo {
+    width: 1100px;
+    margin-left: 4rem;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .detailInfo {
+    width: 900px;
+    margin-left: 6rem;
+  }
+
+  .detailRight {
+    display: none;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .detailInfo {
+    width: 800px;
+    flex-direction: column;
+    margin-left: 6rem;
+  }
+
+  .detailRight {
+    order: 1;
+  }
+
+  .detailLeft {
+    order: 2;
+  }
+  .detailRight {
+    order: 1;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .detailInfo {
+    margin-left: 2.5rem;
+    width: 600px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .detailInfo {
+    width: 500px;
+    margin-left: 0;
+  }
 }

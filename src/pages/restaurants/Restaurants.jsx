@@ -1,49 +1,59 @@
-import { Link, useLocation, useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 import ActiveFilters from "../../components/activeFilters/ActiveFilters";
-import useRestaurants from "../../hooks/useRestaurants";
+import useRestaurants, {
+  useRestaurantsBasedQuery,
+} from "../../hooks/useRestaurants";
 import { queryRestaurants } from "../../lib/queryRestaurants";
-import { v4 as uuidv4 } from "uuid";
 import styles from "./Restaurants.module.css";
+import { useEffect, useState } from "react";
+import RestaurantCard from "../../components/restaurantCard/RestaurantCard";
+import CircularPageLoader from "../../components/pageLoader/CircularPageLoader";
+
 const Restaurants = () => {
+  const [data, setData] = useState([]);
   const [searchParams] = useSearchParams();
+
   const queryDate = searchParams.get("date");
   const queryTime = searchParams.get("time");
   const guests = searchParams.get("guests");
+  const search = searchParams.get("search");
   const { restaurants, isLoading } = useRestaurants();
+  const {
+    restaurants: restaurantsBasedQuery,
+    isLoading: restaurantsIsLoading,
+  } = useRestaurantsBasedQuery(search);
 
-  if (isLoading) {
-    return <div>loading...</div>;
+  useEffect(() => {
+    if (restaurantsBasedQuery?.length) {
+      setData(restaurantsBasedQuery);
+    } else if (queryDate) {
+      const filteredRestaurants = queryRestaurants(
+        restaurants,
+        queryDate,
+        queryTime,
+        guests
+      );
+      setData(filteredRestaurants);
+    } else {
+      setData(restaurants);
+    }
+  }, [restaurantsBasedQuery, restaurants, guests, queryDate, queryTime]);
+
+  if (isLoading || restaurantsIsLoading) {
+    return <CircularPageLoader />;
   }
-  const filteredRestaurants = queryRestaurants(
-    restaurants,
-    queryDate,
-    queryTime,
-    guests
-  );
 
   return (
     <section className={styles.restaurantsSection}>
       <ActiveFilters />
       <div className={styles.restaurants}>
         <div className={styles.restaurantsLeft}>
-          {!filteredRestaurants.length ? (
+          {!data?.length ? (
             <div>No restaurant has found</div>
           ) : (
             <div>
-              {filteredRestaurants.map((restaurant) => (
-                <Link
-                  to={`/restaurant/${restaurant.id}`}
-                  key={uuidv4()}
-                  className={styles.restaurantItem}
-                >
-                  <div className={styles.restaurantItemInfo}>
-                    <h2>{restaurant.name}</h2>
-                    <p>{restaurant?.bio?.slice(0, 20)}</p>
-                  </div>
-                  <div className={styles.restaurantImgContainer}>
-                    <img src={restaurant.imageUrls[0]} />
-                  </div>
-                </Link>
+              {data?.map((restaurant) => (
+                <RestaurantCard key={restaurant.id} restaurant={restaurant} />
               ))}
             </div>
           )}

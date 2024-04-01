@@ -1,0 +1,25 @@
+.spinnerContainer {
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

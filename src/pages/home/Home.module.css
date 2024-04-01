@@ -1,19 +1,73 @@
 .restaurantContainer {
   display: flex;
   gap: 1rem;
-  flex-wrap: wrap;
+  flex-wrap: wrap !important;
   align-items: center;
+  padding: 3rem 0;
 }
 .restaurant {
   width: 330px;
   border: 2px solid #d1d5db;
   cursor: pointer;
+  transition: transform 0.3s ease;
 }
 .restaurant:hover {
   border-bottom: 2px solid blue;
+  transform: scale(1.03);
 }
 
 .restaurant img {
   width: 100%;
   height: 220px;
+}
+
+.info {
+  padding: 1rem;
+}
+.info h2 {
+  font-size: 24px;
+}
+.info h4 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1390px) {
+  .restaurantContainer {
+    width: 1250px;
+    margin-left: 4rem;
+  }
+  .restaurant {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 1245px) {
+  .restaurantContainer {
+    width: 1000px;
+    margin-left: 6rem;
+  }
+  .restaurant {
+    width: 260px;
+  }
+}
+@media screen and (max-width: 940px) {
+  .restaurantContainer {
+    width: 800px;
+    padding: 3rem 2rem;
+    margin-left: 2rem;
+  }
+  .restaurant {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .restaurantContainer {
+    width: 500px;
+    justify-content: center;
+  }
+  .restaurant {
+    width: 330px;
+  }
 }

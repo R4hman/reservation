@@ -1,32 +1,46 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-import Home from "./pages/home/Home";
-import Login from "./pages/login/Login";
-import SignUp from "./pages/signup/SignUp";
+
 import Layout from "./layout/Layout";
-import NotFound from "./pages/notfound/NotFound";
-import RestaurantDetail from "./pages/restaurantDetail/RestaurantDetail";
-import Restaurants from "./pages/restaurants/Restaurants";
-import { useState } from "react";
+import ProtectedRoute from "./protectedRoute/ProtectedRoute";
+import { Suspense, lazy } from "react";
+import CircularPageLoader from "./components/pageLoader/CircularPageLoader";
+
+const SignUp = lazy(() => import("./pages/auth/SignUp"));
+const Login = lazy(() => import("./pages/auth/Login"));
+const Profile = lazy(() => import("./pages/profile/Profile"));
+const Restaurants = lazy(() => import("./pages/restaurants/Restaurants"));
+const RestaurantDetail = lazy(() =>
+  import("./pages/restaurantDetail/RestaurantDetail")
+);
+const Home = lazy(() => import("./pages/home/Home"));
+const NotFound = lazy(() => import("./pages/notfound/NotFound"));
+const ReservationSuccess = lazy(() =>
+  import("./pages/reservationSuccess/ReservationSuccess")
+);
 
 function App() {
-  const [type, setType] = useState("sign-in");
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route path="/" element={<Home />} />
-        <Route path="/restaurants" element={<Restaurants />} />
-        <Route path="/restaurants/:id" element={<RestaurantDetail />} />
-        <Route
-          path="/login"
-          element={<Login type={type} setType={setType} />}
-        />
-        <Route
-          path="/sign-up"
-          element={<SignUp type={type} setType={setType} />}
-        />
-        <Route path="*" element={<NotFound />} />
-      </Route>
-    </Routes>
+    <Suspense fallback={<CircularPageLoader />}>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/restaurants" element={<Restaurants />} />
+          <Route path="/restaurants/:id" element={<RestaurantDetail />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/sign-up" element={<SignUp />} />
+          <Route
+            path="/profile"
+            element={
+              <ProtectedRoute>
+                <Profile />
+              </ProtectedRoute>
+            }
+          />
+          <Route path="/reservation-success" element={<ReservationSuccess />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </Suspense>
   );
 }
 

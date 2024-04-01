@@ -1,10 +1,9 @@
-export const setCookie = (key, value) => {
-  //   const date = new Date();
-  //   date.setTime(date.getTime() + 5 * 2890 * 1000);
-  //   const expires = `expires=${date.toUTCString()}`;
-  document.cookie = `${key}=${value}; max-age=3600; path=/`;
-};
-
+export function setCookie(cName, cValue, expDays) {
+  let date = new Date();
+  date.setTime(date.getTime() + expDays * 24 * 60 * 60 * 1000);
+  const expires = "expires=" + date.toUTCString();
+  document.cookie = cName + "=" + cValue + "; " + expires + "; path=/";
+}
 export const getCookie = (name) => {
   if (document.cookie) {
     const cDecoded = decodeURIComponent(document.cookie);

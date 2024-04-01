@@ -1,0 +1,26 @@
+.footer {
+  background-color: #000000;
+  color: white;
+  padding: 5rem 2rem;
+}
+.footerTop {
+  border-bottom: 2px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+.footerTop ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.footerBottom {
+  background-color: #000000;
+  font-size: 1.2rem !important;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}

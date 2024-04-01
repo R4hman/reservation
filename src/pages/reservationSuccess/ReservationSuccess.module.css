@@ -1,0 +1,27 @@
+.reservationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4.3rem 0;
+}
+.reservationContainer > div {
+  width: 400px;
+  height: 300px;
+  background-color: #d1d5db;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.reservationInfo ul li {
+  list-style: none;
+  margin-left: -2.5rem;
+  font-size: 18px;
+}
+
+.homeLink {
+  background: blue;
+  color: white;
+  padding: 0.8rem;
+  margin-top: 2rem;
+  margin-left: 8rem;
+}

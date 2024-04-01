@@ -1,7 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 
 export const getRestaurants = async (queryDate, queryTime, guest) => {
-  console.log("urlz", queryDate, queryTime, guest);
   fetch(
     `http://localhost:3000/restaurants2?date=${queryDate}&times.time=${queryTime}&times.guestCombination_like=${guest}`
   )

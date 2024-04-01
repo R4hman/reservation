@@ -3,22 +3,17 @@
   border: 1px solid #e5e7eb;
   border-radius: 50px;
   display: flex;
+  flex-wrap: wrap !important;
   align-items: center;
   cursor: pointer;
   margin: 2.5rem 0 2.5rem 0;
+  width: 1200px;
+  margin-left: 1.5rem;
 }
 .navContainer h4 {
   margin: 0;
 }
-/* .form {
-  padding: 1rem 2rem;
-  border: 1px solid #e5e7eb;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  margin: 3rem 0 1rem 0;
-} */
+
 .navContainer .time {
   flex: 1;
   flex-direction: column;
@@ -70,4 +65,23 @@
 }
 .searchBtn:hover {
   transform: scale(1.05);
+}
+
+@media screen and (max-width: 1240px) {
+  .navContainer {
+    width: 950px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .navContainer {
+    width: 680px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navContainer {
+    width: 500px;
+  }
 }

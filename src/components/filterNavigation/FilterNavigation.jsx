@@ -36,7 +36,10 @@ const FilterNavigation = () => {
             <input
               className={styles.dateInput}
               onChange={(e) =>
-                setFilterOptions((prev) => ({ ...prev, date: e.target.value }))
+                setFilterOptions((prev) => ({
+                  ...prev,
+                  date: e.target.value,
+                }))
               }
               type="date"
               defaultValue={filterOptions.date}
@@ -66,7 +69,10 @@ const FilterNavigation = () => {
 
           <select
             onChange={(e) =>
-              setFilterOptions((prev) => ({ ...prev, guests: e.target.value }))
+              setFilterOptions((prev) => ({
+                ...prev,
+                guests: e.target.value,
+              }))
             }
           >
             {guests.map((guest) => (

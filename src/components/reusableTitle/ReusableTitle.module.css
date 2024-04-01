@@ -2,13 +2,43 @@
   display: flex;
   justify-content: space-between;
   padding: 2rem 0;
+  width: fit-content;
+  width: 100%;
 }
 .reusableTitleHeader h3 {
   margin: 0;
+  font-size: 30px;
 }
 .reusableTitleLink {
   color: blue;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 1400px) {
+  .reusableTitleHeader {
+    width: 92%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .reusableTitleHeader {
+    width: 81%;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .reusableTitleHeader {
+    width: 68%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .reusableTitleHeader {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .reusableTitleHeader {
+    width: 37%;
+  }
 }

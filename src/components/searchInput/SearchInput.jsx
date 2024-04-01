@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import styles from "./SearchInput.module.css";
 import { CiSearch } from "react-icons/ci";
 import { useDebounce } from "use-debounce";
-import useSearch, { getUsers } from "../../hooks/useSearch";
+import { getUsers } from "../../hooks/useSearch";
+import { useNavigate } from "react-router-dom";
 
 const SearchInput = () => {
   const [search, setSearch] = useState("");
   const [value] = useDebounce(search, 1000);
-
-  //   const { data, isLoading } = useSearch(value);
+  const navigate = useNavigate();
 
   const handleSearch = (e) => {
     setSearch(e.target.value);
@@ -20,13 +20,16 @@ const SearchInput = () => {
     }
   }, [value]);
 
-  //   if (isLoading) {
-  //     return <div>loading...</div>;
-  //   }
+  const handleNavigate = () => {
+    if (value) {
+      navigate(`/restaurants?search=${search}`);
+    }
+  };
 
   return (
     <div className={styles.searchContainer}>
       <CiSearch
+        onClick={handleNavigate}
         style={{
           fontSize: "1.5rem",
           position: "absolute",
@@ -41,8 +44,6 @@ const SearchInput = () => {
         type="text"
         className={styles.searchInput}
       />
-      {/* a */}
-      {/* <p>{data?.length}</p> */}
     </div>
   );
 };

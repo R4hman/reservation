@@ -1,0 +1,51 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 604px;
+}
+
+.loginContainer {
+  width: 420px;
+  height: 480px;
+  padding-bottom: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.title {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.titleSpan {
+  flex: 1;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.75rem;
+}
+.active {
+  position: relative;
+}
+.active:after {
+  content: "";
+  position: absolute;
+  top: 43px;
+  left: 0;
+  padding: 1.5px;
+  width: 207px;
+  background-color: blue;
+}
+
+.mainContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}

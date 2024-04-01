@@ -1,0 +1,53 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  column-gap: 12px;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.input {
+  border: 1px solid;
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.errorMessage {
+  color: red;
+  margin: 0;
+}
+
+.passwordInputContainer {
+  display: flex;
+  flex-direction: column;
+  column-gap: 12px;
+  position: relative;
+}
+.passwordInput label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.passwordIsClose {
+  position: absolute;
+  right: 12px;
+  top: 28px;
+}
+.eachInputsRow {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.closeEyes {
+  position: absolute;
+  right: 10px;
+  top: 1.8rem;
+}
+
+.form {
+  width: 100%;
+  padding: 40px;
+  border-radius: 10px;
+}
